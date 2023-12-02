@@ -1,0 +1,118 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+    background-color: aqua;
+}
+
+.header #hdi{
+    margin: 0px 8px;
+}
+
+.searchbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchbar input{
+    border: none;   
+    width: 100%;
+}
+
+.main{
+    box-sizing: border-box;
+    width:100%;
+    padding:5% 10%;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.first-box{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.categories{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.slider-1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.game-card{
+    width: 100px;
+    height: 125px;
+    background-color: yellow;
+    /* clip-path: polygon(10% 10%,60% 10%,10% 10%,10% 10%,10% 10%,10% 10%); */
+
+} 
+
+.sec-box{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.selected{
+    display: flex;
+
+}
+
+.slider-2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.slider-2 #hid{
+    visibility: hidden;
+
+}
+
+.game-card-b{
+    width: 200px;
+    height: 225px;
+    background-color: yellow;
+
+}
+
+.video{
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+}
+
+.video iframe{
+    width: 65%;
+    height: 400px;
+}
