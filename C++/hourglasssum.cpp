@@ -4,7 +4,7 @@ using namespace std;
 
 
 int main(){
-    //6x6 2d array/vector required
+    //6x6 2d array/vector required (made on 1 dec 23)
     vector<vector<int>> arr(6);
 
     vector<int> sums;

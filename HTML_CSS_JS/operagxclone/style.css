@@ -16,7 +16,7 @@ body{
     display: flex;
     align-items: center;
     padding: 5px 0px;
-    background-color: aqua;
+    background-color: purple;
 }
 
 .header #hdi{
@@ -70,7 +70,7 @@ body{
 .game-card{
     width: 100px;
     height: 125px;
-    background-color: yellow;
+    background-color: pink;
     /* clip-path: polygon(10% 10%,60% 10%,10% 10%,10% 10%,10% 10%,10% 10%); */
 
 } 
