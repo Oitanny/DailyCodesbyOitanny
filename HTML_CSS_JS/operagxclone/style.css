@@ -9,6 +9,7 @@ body{
     min-height: 100vh;
     top: 0;
     left: 0;
+    background:linear-gradient(#0b0811,#151120,#251f33,#950c2a,#fa1e4e);
 }
 
 .header{
@@ -16,11 +17,16 @@ body{
     display: flex;
     align-items: center;
     padding: 5px 0px;
-    background-color: purple;
+    background-color: #251f33;
 }
 
 .header #hdi{
     margin: 0px 8px;
+    color: #9d9d9d;
+}
+
+.header span{
+    color: #9d9d9d;
 }
 
 .searchbar{
@@ -32,7 +38,15 @@ body{
 .searchbar input{
     border: none;   
     width: 100%;
+    background-color: #251f33;
+    padding: 0% 10px;
 }
+
+.searchbar input:focus {
+    border-color:  #251f33;
+    color: aliceblue;
+ }
+  
 
 .main{
     box-sizing: border-box;
@@ -46,6 +60,40 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+}
+
+.title h2{
+    font-size: 50px;
+    color: #fff;
+}
+
+.title #mc{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.title span{
+    padding-left: 10px;
+}
+
+.title i{
+    padding-left: 10px;
+}
+
+.title a{
+    padding-left: 10px;
+}
+
+.title #btnstg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:  15px;
+    width: 15px;
+    padding: 8px;
+    border-radius: 80px;
+    border:1px solid #fa1e4e ;
 }
 
 .first-box{
