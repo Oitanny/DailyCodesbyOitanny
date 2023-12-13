@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.topnav{
+    top:0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 15px 25px;
+}
+
+.topnav nav{
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    color: #1a1a1a;
+
+}
+
+.topnav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    list-style: none;
+}
+
+.topnav a{
+    text-decoration: none;
+    color: #1a1a1a;
+
+}
+
+.topnav a:hover{
+    color: crimson;
+}
+
+#logo{
+    font-family: 'Lilita One', sans-serif;
+    color: #1a1a1a;
+    font-size: 20px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    height:85vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+#main-img{
+  height: 70%;
+  position: absolute;
+  bottom: 0;
+  right: 0;  
+}
+
+#content-heading{
+    font-family: 'Lilita One', sans-serif;
+    color: #1a1a1a;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.content-txt{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+
+}
+
+.content-img{
+    width: 50%;
+    height: 100%;
+    background-image: url(images/female-developer-transformed.jpeg);
+    background-size: cover;
+}
+
+#name{
+    font-family: 'Lilita One', sans-serif;
+    color: crimson;
+    font-family: 'Lexend', sans-serif;
+    font-size: 40px;
+
+
+}
+
+#name-txt{
+    color: #1a1a1a;
+    font-family: 'Lexend', sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+
+
+}
+
+#am{
+    color: #1a1a1a;
+    font-family: 'Lexend', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+
+}
