@@ -120,3 +120,234 @@ justify-content: center;
     margin-top: 20px;
 
 }
+
+.education{
+    height: 60vh;
+    width: 100%;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+}
+
+#clg-photo{
+    width: 50%;
+    height: 80%;
+    border-radius: 0 290px 200px 0;
+    background-color: crimson;
+}
+
+#education-txt{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+#clg-img{
+    position: absolute;
+    width: 460px;
+    height: 310px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 25px;
+    box-shadow: #1a1a1a;
+}
+
+#education-tgline{
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    font-size: 40px;
+    text-align: right;
+}
+#education-ct{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: right;
+
+}
+#courses{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background-color: crimson;
+    box-sizing: border-box;
+    padding: 6px;
+    border-radius: 6px;
+
+}
+
+.relevant-courses{
+    width: 100%;
+    height: fit-content;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plans_hobbies{
+    height: 60vh;
+    width: 100%;
+}
+
+.plans {
+
+    max-width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #ddd;
+    display: flex;
+    height: 50%;
+  
+}
+
+.hobbies{
+
+    max-width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #ddd;
+    display: flex;
+    height: 50%;
+
+}
+
+#plmaintxt{
+    background-color: #1a1a1a;
+    width: 40%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 50px;
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    font-size: 45px;
+
+
+}
+
+#plcontent{
+    width: 60%;
+    height: 100%;
+    padding: 50px;
+    color: #1a1a1a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+
+
+}
+  
+#hbmaintxt{
+    background-color: #1a1a1a;
+    width: 40%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 50px;
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    font-size: 45px;
+    text-align: right;
+
+
+}
+
+#hbcontent{
+    width: 60%;
+    height: 100%;
+    padding: 50px;
+    color: #1a1a1a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: right;
+
+}
+  
+.contact{
+    margin-top: 100px;
+    background-color: #36a9e0;
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 50px;
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  input[type=submit]:hover {
+    background-color: crimson;
+  }
+  
+  .form-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 40%;
+    margin: 50px;
+  } 
+  
+  .contact-txt{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+  }
+
+#ct-heading{
+    color: white;
+    font-family: 'Lilita One', sans-serif;
+    font-size: 50px;
+    text-align: right;
+
+}
+#ct-cont{
+    color: #1a1a1a;
+    font-family: 'Lexend', sans-serif;
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: right;
+}
+
+#socials{
+    width: 50%;
+    margin-top: 50px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+i{
+    color: white;
+    font-size: 35px;
+}

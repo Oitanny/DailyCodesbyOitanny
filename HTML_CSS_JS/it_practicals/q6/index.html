@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/789c7736d1.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <h1 class="text-center mt-5">FluffyPaws&nbsp;<i class="fa fa-paw"></i></h1>
+        <p class="text-center mt-5">Here you can log the information about your pet.</p>
+        <img src="https://cdn.pixabay.com/photo/2018/10/01/09/21/pets-3715733_640.jpg" class="img-thumbnail mx-auto d-block" width="400">
+        <div class="container w-50 mt-5 border border-primary p-5 mb-5">
+            <form id="myForm">
+                <div class="form-group mb-3">
+                  <label for="petname">Name</label>
+                  <input type="text" class="form-control" id="petname"  placeholder="Enter your pet's name">
+                </div>
+                <div class="form-group mb-3">
+                  <label for="petage">Age</label>
+                  <input type="number" class="form-control" id="petage" placeholder="Enter your pet's age">
+                </div>
+                <div class="form-group mb-3">
+                    <label for="petwt">Weight</label>
+                    <input type="text" class="form-control" id="petwt" placeholder="Enter your pet's weight (lbs)">
+                </div>
+                <div class="form-group mb-3">
+                    <label for="pettype">Type</label>
+                    <input type="text" class="form-control" id="pettype" placeholder="Enter your pet's type/breed">
+                </div>
+                <div class="form-group mb-3">
+                    <label for="petlikes">Likes</label>
+                    <textarea type="text" class="form-control" id="petlikes" placeholder="Enter your pet's likes"></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

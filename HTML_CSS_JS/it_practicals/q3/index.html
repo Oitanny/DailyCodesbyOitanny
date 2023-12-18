@@ -1,36 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend&family=Lilita+One&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">    <title>Portfolio</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend&family=Lilita+One&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/789c7736d1.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
 </head>
+
 <body>
     <div class="main">
+
         <div class="topnav">
             <span id="logo">Me.<br>Developer</span>
             <nav>
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Plans & Hobbies</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#plans_hobbies">Plans & Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
-        <div class="content">
-            <div class="content-txt">
-                <span id="content-heading">print("Hello World");</span>
-                <span id="name-txt">I am&nbsp;<span id="name">Manpreet</span></span>
-                <span id="am">A Budding Software Developer</span>
+        <a name="about">
+            <div class="content">
+                <div class="content-txt">
+                    <span id="content-heading">print("Hello World");</span>
+                    <span id="name-txt">I am&nbsp;<span id="name">Manpreet</span></span>
+                    <span id="am">A Budding Software Developer</span>
+                </div>
+                <div class="content-img">
+
+                </div>
             </div>
-            <div class="content-img">
-                
-            </div>            
-        </div>
+        </a>
+        <a name="education">
+            <div class="education">
+                <div id="clg-photo">
+                    <img src="images/clgphoto.jpg" id="clg-img">
+                </div>
+
+                <div id="education-txt">
+                    <span id="education-tgline">Currently pursuing<br>B.Sc.(Hons) Computer Science</span>
+                    <span id="education-ct">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                    <div class="relevant-courses">
+                        <span id="courses">Software Engineering</span>
+                        <span id="courses">Operating Systems</span>
+                        <span id="courses">Data Structures</span>
+                        <span id="courses">Algorithms</span>
+                        <span id="courses">Research</span>
+                    </div>
+                </div>
+
+            </div>
+        </a>
+        </a>
+        <a name="plans_hobbies">
+            <div class="plans_hobbies">
+                <div class="plans">
+                    <div id="plmaintxt">
+                        <span>What I<br>want to be?</span>
+                    </div>
+                    <div id="plcontent">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</span>
+                    </div>
+                </div>
+                <div class="hobbies">
+                    <div id="hbcontent">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</span>
+                    </div>
+                    <div id="hbmaintxt">
+                        <span>What I<br>like to do?</span>
+                    </div>
+                </div>
+
+            </div>
+        </a>
+        <a name="contact">
+            <div class="contact">
+                <div class="form-container">
+                    <form>
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+                <div class="contact-txt">
+                    <span id='ct-heading'>Contact Me</span>
+                    <span id="ct-cont">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                    <div id="socials">
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-instagram"></i>
+
+                        <i class="fa fa-quora"></i>
+                        <i class="fa fa-medium"></i>
+
+                    </div>
+                </div>
+
+            </div>
+        </a>
     </div>
 </body>
+
 </html>
