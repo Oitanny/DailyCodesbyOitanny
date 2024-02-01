@@ -80,5 +80,30 @@ body{
 .suggested{
     width: 35%;
     height: 100vh;
+    box-sizing: border-box;
+    padding: 10px 40px;
 }
 
+
+i{
+    color: #fff;
+}
+
+.search_bar{
+    width: 70%;
+    background-color: #141c1c;
+    box-sizing: border-box;
+    padding: 12px;
+    
+    border-radius: 50px;
+}
+.search_bar input{
+    background-color: #141c1c;
+    color: #303030;
+    border: none;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.search_bar input:focus-within{
+    border: none;
+}
