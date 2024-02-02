@@ -81,29 +81,60 @@ body{
     width: 35%;
     height: 100vh;
     box-sizing: border-box;
-    padding: 10px 40px;
-}
-
-
-i{
-    color: #fff;
+    padding: 8px 40px;
 }
 
 .search_bar{
     width: 70%;
-    background-color: #141c1c;
+    background-color: #1b1e1e;
     box-sizing: border-box;
-    padding: 12px;
-    
+    padding: 12px 25px;
+    color: #303030;
     border-radius: 50px;
 }
+.search_bar:focus-within{
+    color: rgb(40, 133, 255);
+    border: 1px solid rgb(40, 133, 255);
+}
 .search_bar input{
-    background-color: #141c1c;
-    color: #303030;
+    background-color: #1b1e1e;
     border: none;
     margin-left: 10px;
-    font-size: 15px;
+    font-size: 14px;
 }
-.search_bar input:focus-within{
-    border: none;
+.search_bar input:focus{
+    outline: none;
+    caret-color: white;
+}
+.sub_premium{
+    margin-top: 13px;
+    background-color: #1b1e1e;
+    width: 70%;
+    height: 160px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 15px;
+    color: white;
+}
+.sub_head{
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 8px;
+}
+.sub_text{
+    font-size: 14px;
+}
+.sub_but{
+    background-color: rgb(40, 133, 255);
+    border-radius: 50px;
+    width: 80%;
+    font-size: 14px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 13px;
+}
+.happening{
+    background-color: #1b1e1e;
+    border-radius: 50px;
+    height: 200px;
 }
